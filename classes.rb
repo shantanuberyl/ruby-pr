@@ -1,3 +1,4 @@
+# cars class example
 class Cars
    @@no_of_cars = 0
    def initialize(id, name, comp)
