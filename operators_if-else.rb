@@ -63,3 +63,8 @@ if a >= b
 else
   puts "#{a} >= #{b} : false"
 end
+
+#combined comparison operator
+if c = a <=> b
+  puts "#{c}"
+end
