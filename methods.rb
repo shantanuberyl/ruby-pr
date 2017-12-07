@@ -26,3 +26,14 @@ speak("my")
 speak("name")
 speak("is")
 speak("any name")
+
+
+#variable number
+def class5 (*data)
+  puts "number of details = #{data.length}"
+  for i in 0...data.length
+    puts "details are = #{data[i]}"
+  end
+end
+class5 "Adam", "age - 20", "nyu"
+class5 "Phil", "age - 22", "MM", "Male"    
