@@ -51,3 +51,11 @@ else
 end
 
 puts "Answer is #{result}"
+
+
+#######################
+# Arrays and iterators #
+
+rList = (0..100).to_a
+
+wList = rList.each { |i| puts i if i.even? } #prints if the number is even
