@@ -1,10 +1,9 @@
 #example
-def names(a = "adam", b = "paul")
+def names(a, b)
   puts "first name is : #{a}"
   puts "second name is : #{b}"
 end
 names "smith", "steve"
-names
 
 #return statement
 def items
@@ -36,4 +35,4 @@ def class5 (*data)
   end
 end
 class5 "Adam", "age - 20", "nyu"
-class5 "Phil", "age - 22", "MM", "Male"    
+class5 "Phil", "age - 22", "MM", "Male"
