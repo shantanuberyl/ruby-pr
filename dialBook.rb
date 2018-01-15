@@ -1,4 +1,3 @@
-#generating pin code for different cities by user input
 phoneBook = {
   "New York" => "1223",
   "Washington" => "2121",
